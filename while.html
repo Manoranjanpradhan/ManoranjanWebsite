@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>while loop</title>
+</head>
+<body>
+    <h1 style="font-size:20px; color:dodgerblue; font-family: Algerian;">Welcome</h1>
+    <div id="demo"></div>
+    <script>
+        var i = 1;
+        while (i <= 3) {
+            var nm = prompt("Enter your name", "");
+            if (nm) {
+                alert("Hello " + nm);
+                alert("Welcome");
+            } else {
+                alert("Please enter a valid name.");
+            }
+            i++;
+        }
+        var d = Date.now();
+        document.getElementById("demo").innerHTML = d;
+    </script>
+</body>
+</html>
